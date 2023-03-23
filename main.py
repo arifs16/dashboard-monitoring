@@ -3,9 +3,10 @@ Aplikasi deteksi gempa terkini
 MODULARISASI DENGAN FUNCTION
 MODULARISASI DENGAN PACKAGES
 """
-import gempaterkini
+
+import recentearthquake
 
 if __name__ == '__main__':
     print('APLIKASI UTAMA')
-    result = gempaterkini.ekstraksi_data()
-    gempaterkini.tampilkan_data(result)
+    result = recentearthquake.ekstraksi_data()
+    recentearthquake.tampilkan_data(result)
